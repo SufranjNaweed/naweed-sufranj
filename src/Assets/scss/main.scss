@@ -1,0 +1,79 @@
+@import './configs/colors.scss';
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+section{
+    min-height: 100vh;
+    background-color: $bgColor;
+}
+
+.container{
+    max-width: 1180px;
+    margin: auto;
+}
+
+#hero{
+    margin: 60px 60px 0;
+    position: relative;
+    .hero-content{
+        position: absolute;
+        width: 100%;
+        top: 25%;
+        left: 0;
+        right: 0;
+        h1 {
+            font-size: 70px;
+            margin-bottom: 40px;
+            text-align: center;
+            letter-spacing: 10px;
+            color: $purple;
+            opacity: 0.75;
+        }
+        h2{
+            text-align: center;
+            font-size: 48px;
+            margin-bottom: 40px;
+        }
+        p{
+            font-size: 24px;
+            margin-bottom: 40px;
+            color: $red;
+            text-transform: uppercase;
+            text-align: center;
+            letter-spacing: 7px;
+            span{
+                color: $blue;
+            }
+        }
+    }
+}
+
+#about{
+    margin: 0 60px;
+}
+
+
+.btn-gradient-border{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    min-height: 76px;
+    text-align: center;
+    text-decoration: unset;
+
+    color: $red;
+    background-color: #fff;
+    border-radius: 8px;
+    border: solid 1px $blue;
+}
+
+.container-btn{
+    display: flex;
+    justify-content: space-around;
+    
+}
