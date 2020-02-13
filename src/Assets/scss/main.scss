@@ -1,14 +1,21 @@
 @import './configs/colors.scss';
+@import './configs/font.scss';
+
+$lgScreen : 1200px;
+$mdScreen : 768px;
+$smScreen : 576px;
 
 *{
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 section{
-    min-height: 100vh;
+    min-height: 95vh;
     background-color: $bgColor;
+    overflow-x: hidden;
 }
 
 .container{
@@ -17,37 +24,84 @@ section{
 }
 
 #hero{
-    margin: 60px 60px 0;
+    margin: 30px 30px 0;    
     position: relative;
+    @media screen and (min-width : $mdScreen){
+        margin: 60px 60px 0;
+    }
     .hero-content{
         position: absolute;
         width: 100%;
-        top: 25%;
+        top: 15%;
         left: 0;
         right: 0;
+        z-index: 10;
         h1 {
-            font-size: 70px;
-            margin-bottom: 40px;
+            font-size: 40px;
+            margin-bottom: 20px;
             text-align: center;
             letter-spacing: 10px;
-            color: $purple;
+            color: $red;
             opacity: 0.75;
+            font-weight: $ftBold;
         }
         h2{
             text-align: center;
-            font-size: 48px;
-            margin-bottom: 40px;
+            font-size: 30px;
+            letter-spacing: 6px;
+            margin-bottom: 30px;
+            color:  $blue;
+            font-weight: $ftBold;
+            opacity: 0.8;
         }
         p{
-            font-size: 24px;
-            margin-bottom: 40px;
+            font-size: 20px;
+            padding: 10px;
+            margin-bottom: 60px;
             color: $red;
             text-transform: uppercase;
             text-align: center;
-            letter-spacing: 7px;
+            letter-spacing: 4px;
+            font-weight: $ftLight;
+            opacity: 0.6;
             span{
                 color: $blue;
             }
+        }
+
+        @media screen and (min-width : $mdScreen){
+            top: 25%;
+            h1 {
+                font-size: 70px;
+                color: $purple;
+                margin-bottom: 40px;
+            }
+            h2{
+                font-size: 48px;
+                margin-bottom: 60px;
+            }
+            p{
+                font-size: 24px;
+                margin-bottom: 80px;
+            }
+        }
+        
+    }
+    #topBlob{
+        position: absolute;
+        top: -250px;
+        right: 0;
+        @media screen and (min-width : $mdScreen){
+            top: -40px;
+        }
+    }
+    
+    #bottomBlob{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        @media screen and (min-width : $mdScreen){
+            bottom: 0px;
         }
     }
 }
@@ -56,24 +110,75 @@ section{
     margin: 0 60px;
 }
 
+.container-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: auto;
+    align-items: center;
+    @media screen and (min-width : $mdScreen){
+        width: 50%;
+        flex-direction: row;
+    }
+}
 
-.btn-gradient-border{
+.btn-empty-border{
     display: flex;
     justify-content: center;
     align-items: center;
+
     width: 250px;
     min-height: 76px;
+    margin: 20px auto;
+
+    font-size: 24px;
+    letter-spacing: 6px;
+    font-weight: $ftBold;
     text-align: center;
     text-decoration: unset;
 
     color: $red;
     background-color: #fff;
     border-radius: 8px;
-    border: solid 1px $blue;
+    border: solid 2px $blue;
+    transition: all 0.3s linear;
+
+    &:hover{
+        background-color: $blue;
+        color : #fff;
+        -webkit-box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
+        -moz-box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
+        box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
+    }
 }
 
-.container-btn{
+
+
+.btn-gradient-cta{
     display: flex;
-    justify-content: space-around;
-    
+    justify-content: center;
+    align-items: center;
+
+    width: 250px;
+    min-height: 76px;
+    margin: 20px auto;
+    font-size: 24px;
+    letter-spacing: 6px;
+    font-weight: $ftBold;
+    text-align: center;
+    text-decoration: unset;
+
+    color: #fff;
+    background: linear-gradient(90deg, $blue, $red);;
+
+    border-radius: 8px;
+    border: solid 1px lightgray;
+    transition: all 0.3s linear;
+    &:hover{
+
+        -webkit-box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
+        -moz-box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
+        box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
+    }
 }
+
