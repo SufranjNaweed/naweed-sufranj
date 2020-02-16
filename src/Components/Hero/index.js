@@ -11,7 +11,6 @@ export default function index() {
               <span>M</span>angodb - <span>E</span>xpressJS - <span>R</span>eactJS - <span>N</span>odeJS 
             </p>
             <div className="container-btn">
-              <a className="btn-empty-border" href="" download>CV</a>
               <a className="btn-gradient-cta" href="" target="_blank">PROJET</a> 
             </div>
           </div>
