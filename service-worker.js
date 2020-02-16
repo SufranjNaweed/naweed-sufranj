@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/naweed-sufranj/precache-manifest.09cb1dabe5457b69948da0c41e680a9c.js"
+  "/naweed-sufranj/precache-manifest.0b6da48344c9c5e2b1421fb8d8751e32.js"
 );
 
 self.addEventListener('message', (event) => {

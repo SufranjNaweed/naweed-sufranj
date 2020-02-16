@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "f22ff927b4273886d8c06a7213768194",
+    "revision": "7373baebe3e59e42715cf0c4ad21d6ac",
     "url": "/naweed-sufranj/index.html"
   },
   {
-    "revision": "46983d4cf93b483d2a73",
+    "revision": "ed4e0273b46956d3a9c7",
     "url": "/naweed-sufranj/static/css/main.fe65983a.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/naweed-sufranj/static/js/2.d0eeaf18.chunk.js.LICENSE"
   },
   {
-    "revision": "46983d4cf93b483d2a73",
-    "url": "/naweed-sufranj/static/js/main.84400b47.chunk.js"
+    "revision": "ed4e0273b46956d3a9c7",
+    "url": "/naweed-sufranj/static/js/main.992c1723.chunk.js"
   },
   {
     "revision": "19f97c77e8237df0e215",

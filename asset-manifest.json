@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/naweed-sufranj/static/css/main.fe65983a.chunk.css",
-    "main.js": "/naweed-sufranj/static/js/main.84400b47.chunk.js",
-    "main.js.map": "/naweed-sufranj/static/js/main.84400b47.chunk.js.map",
+    "main.js": "/naweed-sufranj/static/js/main.992c1723.chunk.js",
+    "main.js.map": "/naweed-sufranj/static/js/main.992c1723.chunk.js.map",
     "runtime-main.js": "/naweed-sufranj/static/js/runtime-main.44831495.js",
     "runtime-main.js.map": "/naweed-sufranj/static/js/runtime-main.44831495.js.map",
     "static/js/2.d0eeaf18.chunk.js": "/naweed-sufranj/static/js/2.d0eeaf18.chunk.js",
     "static/js/2.d0eeaf18.chunk.js.map": "/naweed-sufranj/static/js/2.d0eeaf18.chunk.js.map",
     "index.html": "/naweed-sufranj/index.html",
-    "precache-manifest.09cb1dabe5457b69948da0c41e680a9c.js": "/naweed-sufranj/precache-manifest.09cb1dabe5457b69948da0c41e680a9c.js",
+    "precache-manifest.0b6da48344c9c5e2b1421fb8d8751e32.js": "/naweed-sufranj/precache-manifest.0b6da48344c9c5e2b1421fb8d8751e32.js",
     "service-worker.js": "/naweed-sufranj/service-worker.js",
     "static/css/main.fe65983a.chunk.css.map": "/naweed-sufranj/static/css/main.fe65983a.chunk.css.map",
     "static/js/2.d0eeaf18.chunk.js.LICENSE": "/naweed-sufranj/static/js/2.d0eeaf18.chunk.js.LICENSE"
@@ -17,6 +17,6 @@
     "static/js/runtime-main.44831495.js",
     "static/js/2.d0eeaf18.chunk.js",
     "static/css/main.fe65983a.chunk.css",
-    "static/js/main.84400b47.chunk.js"
+    "static/js/main.992c1723.chunk.js"
   ]
 }
