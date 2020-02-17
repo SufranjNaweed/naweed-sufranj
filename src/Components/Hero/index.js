@@ -8,7 +8,7 @@ export default function index() {
             <h1>SUFRANJ Naweed</h1>
             <h2>Développeur FullStack Javascript</h2>
             <p>
-              <span>M</span>angodb - <span>E</span>xpressJS - <span>R</span>eactJS - <span>N</span>odeJS 
+              <span>M</span>ongodb - <span>E</span>xpressJS - <span>R</span>eactJS - <span>N</span>odeJS 
             </p>
             <div className="container-btn">
               <a className="btn-gradient-cta" href="" target="_blank">PROJET</a> 
