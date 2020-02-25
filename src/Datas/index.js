@@ -1,10 +1,38 @@
-import Epitech from '../Assets/images/epitech_logo.png';
-import Academy from '../Assets/images/logo_academy.png';
-import IPSSI from '../Assets/images/ipssi_logo.png';
+// Formation
+import Epitech from '../Assets/images/formations/epitech_logo.png';
+import Academy from '../Assets/images/formations/logo_academy.png';
+import IPSSI from '../Assets/images/formations/ipssi_logo.png';
 
-import ePressPack from "../Assets/images/epresspack_logo.png";
-import adnRealty from '../Assets/images/adn_realty_logo.png';
-import digitalCube from '../Assets/images/digitalcube_logo.png';
+// experiences
+import ePressPack from "../Assets/images/experiences/epresspack_logo.png";
+import adnRealty from '../Assets/images/experiences/adn_realty_logo.png';
+import digitalCube from '../Assets/images/experiences/digitalcube_logo.png';
+
+// techs
+import html5 from '../Assets/images/techs/html-5.svg';
+import css from '../Assets/images/techs/css3.svg';
+import js from '../Assets/images/techs/javascript.svg';
+import jQuery from '../Assets/images/techs/jquery.svg';
+import ReactJS from '../Assets/images/techs/reactjs.svg';
+import ReactNative from '../Assets/images/techs/react-native.svg';
+
+
+import NodeJS from '../Assets/images/techs/nodejs.svg';
+import express from '../Assets/images/techs/express.svg';
+import krakenjs from '../Assets/images/techs/kraken.svg';
+import php from '../Assets/images/techs/php.svg';
+import mongodb from '../Assets/images/techs/mongodb.svg';
+import mysql from '../Assets/images/techs/mysql.svg';
+import firebase from '../Assets/images/techs/firebase.svg';
+
+import figma from "../Assets/images/techs/figma.svg";
+import github from '../Assets/images/techs/github.svg';
+import heroku from "../Assets/images/techs/heroku.svg";
+import npm from '../Assets/images/techs/npm.svg';
+import visualStudio from '../Assets/images/techs/visual-studio.svg';
+import webpack from "../Assets/images/techs/webpack.svg";
+import android from '../Assets/images/techs/android.svg';
+import xcode from '../Assets/images/techs/xcode.svg'
 
 const aboutDatas = {
     formations : [
@@ -16,6 +44,33 @@ const aboutDatas = {
         {logo : ePressPack, altImg : "logo ePressPack", title : "ePressPack", jobTitle: "Developpeur Front-End", year : "2018 - 2019"},
         {logo : adnRealty, altImg : "logo ADN Realty", title : "ADN Realty", jobTitle: "Developpeur Fullstack PHP", year : "Janvier 2019 - Aout 2019"},
         {logo : digitalCube, altImg : "logo DigitalCube", title : "DigitalCube", jobTitle: "Developpeur ReactJS/Native", year : "Septembre 2019 - Mars 2020"}
+    ],
+    techsFronts : [
+        {logo : html5, altImg : 'html5', title : "HTML 5"},
+        {logo : css, altImg : 'css3', title : "CSS 3"},
+        {logo : js, altImg : 'JS', title : "Javascript"},
+        {logo : jQuery, altImg : 'jQuery', title : "jQuery"},
+        {logo : ReactJS, altImg : 'reactjs', title : "React JS"},
+        {logo : ReactNative, altImg : 'React Native', title : "React Native"},
+    ],
+    techsBacks : [
+        {logo : php, altImg : 'php', title : "PHP"},
+        {logo : NodeJS, altImg : 'Nodejs', title : "NodeJS"},
+        {logo : express, altImg : 'ExpressJS', title : "ExpressJS"},
+        {logo : krakenjs, altImg : 'krakenjs', title : "KrakenJS"},
+        {logo : mongodb, altImg : 'mongodb', title : "MongoDB"},
+        {logo : mysql, altImg : 'mysql', title : "MySQL"},
+        {logo : firebase, altImg : 'firebase', title : "Firebase"},
+    ],
+    tools : [
+        {logo : figma, altImg : 'Figma', title : "Figma"},
+        {logo : github, altImg : 'Github', title : "Github"},
+        {logo : heroku, altImg : 'Heroku', title : "Heroku"},
+        {logo : npm, altImg : 'NPM', title : "NPM"},
+        {logo : webpack, altImg : 'webpack', title : "Webpack"},
+        {logo : visualStudio, altImg : "visual studio", title : "Visual Studio Code"},
+        {logo : android, altImg : "Android Studio", title : "Android Studio"},
+        {logo : xcode, altImg : "Xcode", title : "Xcode"},
     ]
 }
 
