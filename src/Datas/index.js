@@ -19,7 +19,6 @@ import ReactNative from '../Assets/images/techs/react-native.svg';
 
 import NodeJS from '../Assets/images/techs/nodejs.svg';
 import express from '../Assets/images/techs/express.svg';
-import krakenjs from '../Assets/images/techs/kraken.svg';
 import php from '../Assets/images/techs/php.svg';
 import mongodb from '../Assets/images/techs/mongodb.svg';
 import mysql from '../Assets/images/techs/mysql.svg';
