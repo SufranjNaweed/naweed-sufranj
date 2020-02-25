@@ -57,7 +57,6 @@ const aboutDatas = {
         {logo : php, altImg : 'php', title : "PHP"},
         {logo : NodeJS, altImg : 'Nodejs', title : "NodeJS"},
         {logo : express, altImg : 'ExpressJS', title : "ExpressJS"},
-        {logo : krakenjs, altImg : 'krakenjs', title : "KrakenJS"},
         {logo : mongodb, altImg : 'mongodb', title : "MongoDB"},
         {logo : mysql, altImg : 'mysql', title : "MySQL"},
         {logo : firebase, altImg : 'firebase', title : "Firebase"},
