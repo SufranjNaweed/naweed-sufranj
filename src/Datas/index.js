@@ -9,21 +9,21 @@ import adnRealty from '../Assets/images/experiences/adn_realty_logo.png';
 import digitalCube from '../Assets/images/experiences/digitalcube_logo.png';
 
 // techs
+// front
 import html5 from '../Assets/images/techs/html-5.svg';
 import css from '../Assets/images/techs/css3.svg';
 import js from '../Assets/images/techs/javascript.svg';
 import jQuery from '../Assets/images/techs/jquery.svg';
 import ReactJS from '../Assets/images/techs/reactjs.svg';
 import ReactNative from '../Assets/images/techs/react-native.svg';
-
-
+// back
 import NodeJS from '../Assets/images/techs/nodejs.svg';
 import express from '../Assets/images/techs/express.svg';
 import php from '../Assets/images/techs/php.svg';
 import mongodb from '../Assets/images/techs/mongodb.svg';
 import mysql from '../Assets/images/techs/mysql.svg';
 import firebase from '../Assets/images/techs/firebase.svg';
-
+// tools
 import figma from "../Assets/images/techs/figma.svg";
 import github from '../Assets/images/techs/github.svg';
 import heroku from "../Assets/images/techs/heroku.svg";
@@ -32,6 +32,12 @@ import visualStudio from '../Assets/images/techs/visual-studio.svg';
 import webpack from "../Assets/images/techs/webpack.svg";
 import android from '../Assets/images/techs/android.svg';
 import xcode from '../Assets/images/techs/xcode.svg'
+
+import codepen from '../Assets/images/rs/codepen.svg';
+import githubRS from "../Assets/images/rs/github.svg";
+import gmail from "../Assets/images/rs/gmail.svg";
+import linkedin from "../Assets/images/rs/linkedin.svg";
+import twitter from "../Assets/images/rs/twitter.svg";
 
 const aboutDatas = {
     formations : [
@@ -71,5 +77,17 @@ const aboutDatas = {
         {logo : xcode, altImg : "Xcode", title : "Xcode"},
     ]
 }
+
+const reseauxDatas = [
+    {logo:  codepen, url: "https://codepen.io/sufranjnaweed", title: "codepen"},
+    {logo:  githubRS, url: "https://github.com/SufranjNaweed", title: "Github"},
+    {logo:  gmail, url: "sufranj.naweed@gmail.com", title: "Gmail"},
+    {logo:  linkedin, url: "https://www.linkedin.com/in/naweed-sufranj-483629121/", title: "Linkedin"},
+    {logo:  twitter, url: "https://twitter.com/krakensin", title: "Twitter"},
+];
+
+const projets = [
+    {img: "", url: "", title:"", description: "", techs : ["", ""]}, 
+];
 
 export default aboutDatas;
