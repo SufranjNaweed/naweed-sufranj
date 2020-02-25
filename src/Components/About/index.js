@@ -21,6 +21,26 @@ export default function index() {
         </div>
     );
 
+    const fronts = datas.techsFronts.map(front => 
+        <div className="card-tech">
+            <img src={front.logo} alt={front.altImg}></img>
+            <p>{front.title}</p>
+        </div>
+    );
+    
+    const backs = datas.techsBacks.map(back => 
+        <div className="card-tech">
+            <img src={back.logo} alt={back.altImg}></img>
+            <p>{back.title}</p>
+        </div>
+    );
+
+    const tools = datas.tools.map(tool => 
+        <div className="card-tech">
+            <img src={tool.logo} alt={tool.altImg}></img>
+            <p>{tool.title}</p>
+        </div>
+    );
     return (
         <section id="about">
             <h2>A Propos</h2>
@@ -43,10 +63,17 @@ export default function index() {
                 </div>
                 <div className="part three">
                     <h3>Stack Technique</h3> 
-                    <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nobis a nostrum aspernatur, rem, tenetur recusandae quo inventore adipisci voluptas cupiditate porro. Aspernatur, repellendus hic? Ex culpa blanditiis alias, repudiandae maxime saepe! Aliquid nulla, quod asperiores possimus exercitationem laboriosam laudantium.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum eos maiores fugit animi sequi ratione voluptatum, quaerat minima nesciunt mollitia fugiat voluptates voluptate maxime, accusantium perspiciatis excepturi, sed aperiam hic nobis. Vitae quidem quibusdam aut molestias quam expedita esse.
-                    </p>
+                    <div className="cardContainer fronts">
+                        {fronts}
+                    </div>
+
+                    <div className="cardContainer backs">
+                        {backs}
+                    </div>
+
+                    <div className="cardContainer tools">
+                        {tools}
+                    </div>
                 </div>
                 </div>
         </section>
