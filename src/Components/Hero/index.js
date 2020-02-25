@@ -1,6 +1,9 @@
 import React from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 export default function index() {
+  const notify = () => toast("Kimkim du dragon !");
     return (
       <section id="hero">
         <div className="container">
@@ -11,7 +14,8 @@ export default function index() {
               <span>M</span>ongodb - <span>E</span>xpressJS - <span>R</span>eactJS - <span>N</span>odeJS 
             </p>
             <div className="container-btn">
-              <a className="btn-gradient-cta" href="" target="_blank">PROJET</a> 
+              <a className="btn-gradient-cta" onClick={notify} href="" target="_blank">PROJET</a> 
+              <ToastContainer />
             </div>
           </div>
         </div>
@@ -39,6 +43,7 @@ export default function index() {
           </defs>
           </svg>
         </div>
+        
       </section>
     )
 }
