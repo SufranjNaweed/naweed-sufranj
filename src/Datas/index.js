@@ -87,7 +87,9 @@ const reseauxDatas = [
 ];
 
 const projets = [
-    {img: "", url: "", title:"", description: "", techs : ["", ""]}, 
+    {img: "", url: "", title:"", description: "", techs : ["", ""]},
+    {img: "", url: "", title:"", description: "", techs : ["", ""]},
+    {img: "", url: "", title:"", description: "", techs : ["", ""]},
 ];
 
 export default aboutDatas;

@@ -80,6 +80,23 @@
                     color: $purple;
                 }
             }
+
+            .cardContainer{
+                display: flex;
+                justify-content: space-around;
+                .card{
+                    display: flex;
+                    flex-direction: column;
+                    min-height: 250px;
+                    padding: 20px;
+                    text-align: center;
+                    img{
+                        max-width: 100px;
+                        margin: auto;
+                    }
+                }
+            }
+
         }
         &.three{
             h3{
