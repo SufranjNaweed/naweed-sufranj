@@ -40,7 +40,12 @@
             font-weight: $ftLight;
             opacity: 0.6;
             span{
-                color: $blue;
+                color: $black;
+                font-weight: $ftBold;
+                @media screen and (min-width: $mdScreen){
+                    color: $blue;                    
+                }
+
             }
         }
         @media screen and (min-width : $mdScreen){

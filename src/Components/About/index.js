@@ -48,9 +48,11 @@ export default function index() {
                 <div className="part one">
                     <h3>Qui suis-je</h3> 
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Accusantium nobis a nostrum aspernatur, rem, tenetur recusandae quo inventore adipisci voluptas cupiditate porro. Aspernatur, repellendus hic? Ex culpa blanditiis alias, repudiandae maxime saepe! Aliquid nulla, quod asperiores possimus exercitationem laboriosam laudantium.
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi earum eos maiores fugit animi sequi ratione voluptatum, quaerat minima nesciunt mollitia fugiat voluptates voluptate maxime, accusantium perspiciatis excepturi, sed aperiam hic nobis. Vitae quidem quibusdam aut molestias quam expedita esse.
+                        Je suis Naweed SUFRANJ 26 ans Développeur FullStack 
+                        Javascript MERN Bac+4 avec 2 ans d’expérience en agence web.
                     </p>
+                    <p>Game Developpeur amateur</p>
+                    <p>Membre du staff de la communauté Open Source Godot Francophone</p>
                 </div>
                 <div className="part two">
                     <h3>Formation & Expériences</h3> 
@@ -63,14 +65,15 @@ export default function index() {
                 </div>
                 <div className="part three">
                     <h3>Stack Technique</h3> 
+                    <h4>- Front End -</h4>
                     <div className="cardContainer fronts">
                         {fronts}
                     </div>
-
+                    <h4>- Back End -</h4>
                     <div className="cardContainer backs">
                         {backs}
                     </div>
-
+                    <h4>- Outils -</h4>
                     <div className="cardContainer tools">
                         {tools}
                     </div>

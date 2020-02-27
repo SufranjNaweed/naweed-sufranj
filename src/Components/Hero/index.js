@@ -14,7 +14,7 @@ export default function index() {
               <span>M</span>ongodb - <span>E</span>xpressJS - <span>R</span>eactJS - <span>N</span>odeJS 
             </p>
             <div className="container-btn">
-              <a className="btn-gradient-cta" onClick={notify} href="" target="_blank">PROJET</a> 
+              <a className="btn-gradient-cta" onClick={notify} href="#">PROJET</a> 
               <ToastContainer />
             </div>
           </div>
