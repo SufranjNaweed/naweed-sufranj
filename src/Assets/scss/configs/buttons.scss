@@ -24,16 +24,54 @@
         text-decoration: unset;
     
         color: #fff;
-        background: linear-gradient(90deg, $blue, $red);;
+        background: linear-gradient(90deg, $blue, $red);
     
         border-radius: 8px;
         border: solid 1px lightgray;
         transition: all 0.3s linear;
         &:hover{
-    
             -webkit-box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
             -moz-box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
             box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
         }
+    }
+}
+
+.btnSource{
+    box-sizing: border-box;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: $ftBold;
+    text-decoration: unset;
+    padding: 5px 10px;
+    margin: 10px 2px;
+    border: solid 1px $purple;
+    border-radius: 8px;
+
+    background: linear-gradient(90deg, $blue, $red);
+    transition: all 0.3s linear;
+    &:hover{
+        -webkit-box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
+        -moz-box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
+        box-shadow: 0px 5px 30px -10px rgba(13,27,42,1);
+    }
+}
+
+.btnProd{
+    color: $blue;
+    letter-spacing: 2px;
+    font-size: 14px;
+    font-weight: $ftBold;
+    text-decoration: unset;
+    padding: 5px 10px;
+    border: solid 1px $blue;
+    border-radius: 8px;
+    margin: 10px 2px;
+
+    transition: all 0.3s linear;
+    &:hover{
+        color: #fff;
+        background-color: $blue;
     }
 }
