@@ -1,9 +1,9 @@
 import React from 'react'
-import datas from '../../Datas';
+import { aboutDatas } from '../../Datas';
 
 
 export default function index() {
-    const formations = datas.formations.map(formation => 
+    const formations = aboutDatas.formations.map(formation => 
         <div className="card">
             <img src={formation.logo} alt={formation.altImg}></img>
             <h4 className="title">{formation.title}</h4>
@@ -12,7 +12,7 @@ export default function index() {
         </div>
     );
 
-    const experiences  = datas.experiences.map(experience => 
+    const experiences  = aboutDatas.experiences.map(experience => 
         <div className="card">
             <img src={experience.logo} alt={experience.altImg}></img>
             <h4 className="title">{experience.title}</h4>
@@ -21,21 +21,21 @@ export default function index() {
         </div>
     );
 
-    const fronts = datas.techsFronts.map(front => 
+    const fronts = aboutDatas.techsFronts.map(front => 
         <div className="card-tech">
             <img src={front.logo} alt={front.altImg}></img>
             <p>{front.title}</p>
         </div>
     );
     
-    const backs = datas.techsBacks.map(back => 
+    const backs = aboutDatas.techsBacks.map(back => 
         <div className="card-tech">
             <img src={back.logo} alt={back.altImg}></img>
             <p>{back.title}</p>
         </div>
     );
 
-    const tools = datas.tools.map(tool => 
+    const tools = aboutDatas.tools.map(tool => 
         <div className="card-tech">
             <img src={tool.logo} alt={tool.altImg}></img>
             <p>{tool.title}</p>

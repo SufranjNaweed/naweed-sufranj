@@ -31,15 +31,27 @@ import npm from '../Assets/images/techs/npm.svg';
 import visualStudio from '../Assets/images/techs/visual-studio.svg';
 import webpack from "../Assets/images/techs/webpack.svg";
 import android from '../Assets/images/techs/android.svg';
-import xcode from '../Assets/images/techs/xcode.svg'
+import xcode from '../Assets/images/techs/xcode.svg';
 
+// PROJECTS
+import github_projet from '../Assets/images/projets/github.jpg';
+import contactmanager from '../Assets/images/projets/contactmanager.png';
+import creasoul from '../Assets/images/projets/creasoul.png';
+import cupoftea from '../Assets/images/projets/cupoftea.png';
+import johndoe from '../Assets/images/projets/johndoe.png';
+import krakenchat from '../Assets/images/projets/krakenchat.png';
+import krakenmovie from '../Assets/images/projets/krakenmovie.png';
+import krakensinstudio from '../Assets/images/projets/krakensinstudio.png';
+import redwolf from '../Assets/images/projets/redwolf.png';
+
+// RS
 import codepen from '../Assets/images/rs/codepen.svg';
 import githubRS from "../Assets/images/rs/github.svg";
 import gmail from "../Assets/images/rs/gmail.svg";
 import linkedin from "../Assets/images/rs/linkedin.svg";
 import twitter from "../Assets/images/rs/twitter.svg";
 
-const aboutDatas = {
+export const aboutDatas = {
     formations : [
         {logo : Epitech, altImg : "logo Epitech", title : "Epitech", level : "Bac +1", techs: "C / JS"},
         {logo : Academy, altImg : "logo 3W Academy", title : "3W Academy", level : "Bac +2", techs: "HTML / CSS / JS / PHP/MySQL"},
@@ -75,10 +87,10 @@ const aboutDatas = {
         {logo : visualStudio, altImg : "visual studio", title : "Visual Studio Code"},
         {logo : android, altImg : "Android Studio", title : "Android Studio"},
         {logo : xcode, altImg : "Xcode", title : "Xcode"},
-    ]
+    ],
 }
 
-const reseauxDatas = [
+export const reseauxDatas = [
     {logo:  codepen, url: "https://codepen.io/sufranjnaweed", title: "codepen"},
     {logo:  githubRS, url: "https://github.com/SufranjNaweed", title: "Github"},
     {logo:  gmail, url: "sufranj.naweed@gmail.com", title: "Gmail"},
@@ -86,10 +98,84 @@ const reseauxDatas = [
     {logo:  twitter, url: "https://twitter.com/krakensin", title: "Twitter"},
 ];
 
-const projets = [
-    {img: "", url: "", title:"", description: "", techs : ["", ""]},
-    {img: "", url: "", title:"", description: "", techs : ["", ""]},
-    {img: "", url: "", title:"", description: "", techs : ["", ""]},
-];
+export const projets = [
+    {
+        img: krakenmovie, alt: "Kraken Movie", 
+        sourceUrl: "https://github.com/SufranjNaweed/KrakenMovie-JS", productionUrl : "https://github.com/SufranjNaweed/KrakenMovie-JS", 
+        title:"Kraken Movie", description: "", 
+        tag : "BackEnd NodeJS ",techs : ["Nodejs", "ExpressJS", "Handlebar"]
+    },
+    {
+        img: krakenchat, alt: "Kraken Chat IO", 
+        sourceUrl: "https://github.com/SufranjNaweed/Kraken_Chat_NodeJS", productionUrl : "", 
+        title:"Kraken Chat", description: "Un chat en NodeJS", 
+        tag : "Backend NodeJS" ,techs : ["NodeJS", "ExpressJS", "SocketIO"]
+    },
+    {
+        img: github_projet, alt: "Giphy API Fetcher", 
+        sourceUrl: "https://github.com/SufranjNaweed/giphy-api", productionUrl : "", 
+        title:"Giphy API Fetcher", description: "", 
+        tag : "BackEnd NodeJS" ,techs : ["NodeJS", "ExpressJS"]
+    },
+    {
+        img: github_projet, alt: "NodeJS API Boilerplate", 
+        sourceUrl: "https://github.com/SufranjNaweed/nodejs-api-boilerplate", productionUrl : "", 
+        title:"NodeJS API Boilerplate", description: "Template d'API ExpressJS & Mongodb", 
+        tag : "BackEnd NodeJS" ,techs : ["NodeJS", "ExpressJS", "MongoDB"]
+    },
+    {
+        img: github_projet, alt: "Rollfate API", 
+        sourceUrl: "https://github.com/SufranjNaweed/rollfate-api", productionUrl : "", 
+        title:"Rollfate API", description: "API Rollfate, Projet de fin de Master 1, API Gestion de personnage de jeu de role papier", 
+        tag : "BackEnd NodeJS" ,techs : ["NodeJS", "ExpressJS", "MongoDB"]
+    },
+    {
+        img: contactmanager, alt: "contact manager", 
+        sourceUrl: "https://github.com/SufranjNaweed/pwa-contact-manager", productionUrl : "https://sufranjnaweed.github.io/pwa-contact-manager/", 
+        title:"Contact Manager PWA", description: "", 
+        tag : "FrontEnd ReactJS" ,techs : ["ReactJS", "PWA"]
+    },
+    {
+        img: krakensinstudio, alt: "Krakensin Studio", 
+        sourceUrl: "https://github.com/SufranjNaweed/kraken-sin-studio", productionUrl : "https://sufranjnaweed.github.io/kraken-sin-studio/", 
+        title:"Krakensin Studio", description: "", 
+        tag : "FrontEnd Integration" ,techs : ["HTML5", "CSS3", "JS", "VueJS"]
+    },
+    {
+        img: github_projet, alt: "Kraken Movie Mobile", 
+        sourceUrl: "https://github.com/SufranjNaweed/kraken-movie-react-native", productionUrl : "", 
+        title:"Kraken Movie Mobile", description: "", 
+        tag : "Mobile Android - IOS" ,techs : ["React Native", "Expo"]
+    },
 
-export default aboutDatas;
+    {
+        img: github_projet, alt: "Claps", 
+        sourceUrl: "https://github.com/SufranjNaweed/ClapsRNA", productionUrl : "", 
+        title:"Claps", description: "", 
+        tag : "Mobile Android - IOS" ,techs : ["React Native", "Android", "IOS"]
+    },
+    {
+        img: redwolf, alt: "redwolf", 
+        sourceUrl: "https://github.com/SufranjNaweed/redwolf", productionUrl : "https://sufranjnaweed.github.io/redwolf/", 
+        title:"Redwolf", description: "exercice étudiant d'intéragration d'une maquette vers une template", 
+        tag : "FrontEnd Integration", techs : ["HTML5", "CSS3"]
+    },
+    {
+        img: johndoe, alt: "johnDoePortfolio", 
+        sourceUrl: "https://github.com/SufranjNaweed/john-doe-portfolio", productionUrl : "https://sufranjnaweed.github.io/john-doe-portfolio/", 
+        title:"john doe portfolio", description: "exercice étudiant d'intéragration d'une maquette vers une template", 
+        tag : "FrontEnd Integration",techs : ["HTML5", "CSS3"]
+    },
+    {
+        img: cupoftea, alt: "cup of tea", 
+        sourceUrl: "https://github.com/SufranjNaweed/cupoftea", productionUrl : "https://sufranjnaweed.github.io/cupoftea/", 
+        title:"Cup of tea", description: "exercice étudiant d'intéragration d'une maquette vers une template", 
+        tag : "FrontEnd Integration",techs : ["HTML5", "CSS3"]
+    },
+    {
+        img: creasoul, alt: "creasoul", 
+        sourceUrl: "https://github.com/SufranjNaweed/creasoul-integration", productionUrl : "https://sufranjnaweed.github.io/creasoul-integration/", 
+        title:"Creasoul", description: "exercice étudiant d'intéragration d'une maquette vers une template", 
+        tag : "FrontEnd Integration",techs : ["HTML5", "CSS3"]
+    },
+];
