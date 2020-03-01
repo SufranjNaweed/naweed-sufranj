@@ -1,21 +1,22 @@
 import React from 'react';
-import { ToastContainer, toast } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
+import Fade from 'react-reveal/Fade';
 
 export default function index() {
-  const notify = () => toast("Kimkim du dragon !");
     return (
       <section id="hero">
         <div className="container">
           <div className="hero-content">
-            <h1>SUFRANJ Naweed</h1>
-            <h2>Développeur FullStack Javascript</h2>
-            <p>
-              <span>M</span>ongodb - <span>E</span>xpressJS - <span>R</span>eactJS - <span>N</span>odeJS 
-            </p>
+            <Fade top>
+              <h1>SUFRANJ Naweed</h1>
+            </Fade>
+            <Fade bottom>
+              <h2>Développeur FullStack Javascript</h2>
+              <p>
+                <span>M</span>ongodb - <span>E</span>xpressJS - <span>R</span>eactJS - <span>N</span>odeJS 
+              </p>
+            </Fade>
             <div className="container-btn">
-              <a className="btn-gradient-cta" onClick={notify} href="#">PROJET</a> 
-              <ToastContainer />
+              <a className="btn-gradient-cta" href="#projects">PROJET</a>
             </div>
           </div>
         </div>
