@@ -101,7 +101,7 @@ export const reseauxDatas = [
 export const projets = [
     {
         img: krakenmovie, alt: "Kraken Movie", 
-        sourceUrl: "https://github.com/SufranjNaweed/KrakenMovie-JS", productionUrl : "https://github.com/SufranjNaweed/KrakenMovie-JS", 
+        sourceUrl: "https://github.com/SufranjNaweed/KrakenMovie-JS", productionUrl : "https://krakenmovie.herokuapp.com", 
         title:"Kraken Movie", description: "", 
         tag : "BackEnd NodeJS ",techs : ["Nodejs", "ExpressJS", "Handlebar"]
     },
