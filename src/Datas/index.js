@@ -47,7 +47,6 @@ import redwolf from '../Assets/images/projets/redwolf.png';
 // RS
 import codepen from '../Assets/images/rs/codepen.svg';
 import githubRS from "../Assets/images/rs/github.svg";
-import gmail from "../Assets/images/rs/gmail.svg";
 import linkedin from "../Assets/images/rs/linkedin.svg";
 import twitter from "../Assets/images/rs/twitter.svg";
 
@@ -91,11 +90,10 @@ export const aboutDatas = {
 }
 
 export const reseauxDatas = [
-    {logo:  codepen, url: "https://codepen.io/sufranjnaweed", title: "codepen"},
-    {logo:  githubRS, url: "https://github.com/SufranjNaweed", title: "Github"},
-    {logo:  gmail, url: "sufranj.naweed@gmail.com", title: "Gmail"},
-    {logo:  linkedin, url: "https://www.linkedin.com/in/naweed-sufranj-483629121/", title: "Linkedin"},
-    {logo:  twitter, url: "https://twitter.com/krakensin", title: "Twitter"},
+    {logo:  codepen, url: "https://codepen.io/sufranjnaweed", title: "codepen", pseudo: "@sufranjnaweed"},
+    {logo:  githubRS, url: "https://github.com/SufranjNaweed", title: "Github", pseudo: "SufranjNaweed"},
+    {logo:  linkedin, url: "https://www.linkedin.com/in/naweed-sufranj-483629121/", title: "Linkedin", pseudo: "Sufranj Naweed"},
+    {logo:  twitter, url: "https://twitter.com/krakensin", title: "Twitter", pseudo: "@KrakenSin"},
 ];
 
 export const projets = [
