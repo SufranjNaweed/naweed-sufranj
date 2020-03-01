@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import Fade from 'react-reveal/Fade';
 import { projets } from '../../Datas';
 
 export default function index() {
@@ -22,10 +23,14 @@ export default function index() {
     return (
         <section id="projects">
             <div className="container">
-                <h2>Projets</h2>
-                <div className="cardProjectContainer">
-                    {Projets}
-                </div>
+                <Fade top>
+                    <h2>Projets</h2>
+                </Fade>
+                <Fade bottom>
+                    <div className="cardProjectContainer">
+                        {Projets}
+                    </div>
+                </Fade>
             </div>
 
         </section>
