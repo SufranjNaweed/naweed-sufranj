@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "92b8ca150edd52b6880c63cc82ad5a2c",
+    "revision": "dd690b41e9d7f7f5568a502ae15afec5",
     "url": "/naweed-sufranj/index.html"
   },
   {
