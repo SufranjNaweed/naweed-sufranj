@@ -43,6 +43,7 @@ import krakenchat from '../Assets/images/projets/krakenchat.png';
 import krakenmovie from '../Assets/images/projets/krakenmovie.png';
 import krakensinstudio from '../Assets/images/projets/krakensinstudio.png';
 import redwolf from '../Assets/images/projets/redwolf.png';
+import timertask from '../Assets/images/projets/timer-task.png';
 
 // RS
 import codepen from '../Assets/images/rs/codepen.svg';
@@ -98,6 +99,48 @@ export const reseauxDatas = [
 
 export const projets = [
     {
+        img: krakensinstudio, alt: "Krakensin Studio", 
+        sourceUrl: "https://github.com/KrakenSIN-Studio/kraken-sin-studio", productionUrl : "https://krakensin-studio.com/", 
+        title:"Krakensin Studio", description: "", 
+        tag : "FrontEnd Integration" ,techs : ["HTML5", "CSS3", "JS", "VueJS"]
+    },
+    {
+        img: github_projet, alt: "NodeJS API Boilerplate", 
+        sourceUrl: "https://github.com/SufranjNaweed/nodejs-api-boilerplate", productionUrl : "", 
+        title:"NodeJS API Boilerplate", description: "Template d'API ExpressJS & Mongodb", 
+        tag : "BackEnd NodeJS" ,techs : ["NodeJS", "ExpressJS", "MongoDB"]
+    },
+    {
+        img: timertask, alt: "TimerTask", 
+        sourceUrl: "https://github.com/SufranjNaweed/timer-task", productionUrl : "https://sufranjnaweed.github.io/timer-task/", 
+        title:"Timer Task", description: "A Pomodoro mixed with a Todo list made with React Hooks & deployed on Github Pages", 
+        tag : "FrontEnd ReactJS ",techs : ["Reactjs", "Hooks", "Context-API"]
+    },
+    {
+        img: github_projet, alt: "Claps", 
+        sourceUrl: "https://github.com/SufranjNaweed/claps", productionUrl : "", 
+        title:"Claps", description: "React Native APP to search & share gifs with your friend", 
+        tag : "Mobile Android - IOS" ,techs : ["React Native", "Android", "IOS"]
+    },
+    {
+        img: github_projet, alt: "Claps API Gif Fetcher", 
+        sourceUrl: "https://github.com/SufranjNaweed/claps-api", productionUrl : "", 
+        title:"Claps API Gif Fetcher", description: "", 
+        tag : "BackEnd NodeJS" ,techs : ["NodeJS", "ExpressJS"]
+    },
+    {
+        img: github_projet, alt: "Kraken's Mood", 
+        sourceUrl: "https://github.com/SufranjNaweed/KrakensMood", productionUrl : "", 
+        title:"Kraken's Mood", description: "Mood Tracker X Twitter", 
+        tag : "Mobile Android - IOS" ,techs : ["React Native", "Android", "IOS"]
+    },
+    {
+        img: github_projet, alt: "Kraken's Mood API", 
+        sourceUrl: "https://github.com/SufranjNaweed/KrakensMood-API", productionUrl : "", 
+        title:"Kraken's Mood", description: "", 
+        tag : "BackEnd NodeJS" ,techs : ["NodeJS", "ExpressJS"]
+    },
+    {
         img: krakenmovie, alt: "Kraken Movie", 
         sourceUrl: "https://github.com/SufranjNaweed/KrakenMovie-JS", productionUrl : "https://krakenmovie.herokuapp.com", 
         title:"Kraken Movie", description: "", 
@@ -110,47 +153,10 @@ export const projets = [
         tag : "Backend NodeJS" ,techs : ["NodeJS", "ExpressJS", "SocketIO"]
     },
     {
-        img: github_projet, alt: "Giphy API Fetcher", 
-        sourceUrl: "https://github.com/SufranjNaweed/giphy-api", productionUrl : "", 
-        title:"Giphy API Fetcher", description: "", 
-        tag : "BackEnd NodeJS" ,techs : ["NodeJS", "ExpressJS"]
-    },
-    {
-        img: github_projet, alt: "NodeJS API Boilerplate", 
-        sourceUrl: "https://github.com/SufranjNaweed/nodejs-api-boilerplate", productionUrl : "", 
-        title:"NodeJS API Boilerplate", description: "Template d'API ExpressJS & Mongodb", 
-        tag : "BackEnd NodeJS" ,techs : ["NodeJS", "ExpressJS", "MongoDB"]
-    },
-    {
-        img: github_projet, alt: "Rollfate API", 
-        sourceUrl: "https://github.com/SufranjNaweed/rollfate-api", productionUrl : "", 
-        title:"Rollfate API", description: "API Rollfate, Projet de fin de Master 1, API Gestion de personnage de jeu de role papier", 
-        tag : "BackEnd NodeJS" ,techs : ["NodeJS", "ExpressJS", "MongoDB"]
-    },
-    {
         img: contactmanager, alt: "contact manager", 
         sourceUrl: "https://github.com/SufranjNaweed/pwa-contact-manager", productionUrl : "https://sufranjnaweed.github.io/pwa-contact-manager/", 
         title:"Contact Manager PWA", description: "", 
         tag : "FrontEnd ReactJS" ,techs : ["ReactJS", "PWA"]
-    },
-    {
-        img: krakensinstudio, alt: "Krakensin Studio", 
-        sourceUrl: "https://github.com/SufranjNaweed/kraken-sin-studio", productionUrl : "https://sufranjnaweed.github.io/kraken-sin-studio/", 
-        title:"Krakensin Studio", description: "", 
-        tag : "FrontEnd Integration" ,techs : ["HTML5", "CSS3", "JS", "VueJS"]
-    },
-    {
-        img: github_projet, alt: "Kraken Movie Mobile", 
-        sourceUrl: "https://github.com/SufranjNaweed/kraken-movie-react-native", productionUrl : "", 
-        title:"Kraken Movie Mobile", description: "", 
-        tag : "Mobile Android - IOS" ,techs : ["React Native", "Expo"]
-    },
-
-    {
-        img: github_projet, alt: "Claps", 
-        sourceUrl: "https://github.com/SufranjNaweed/ClapsRNA", productionUrl : "", 
-        title:"Claps", description: "", 
-        tag : "Mobile Android - IOS" ,techs : ["React Native", "Android", "IOS"]
     },
     {
         img: redwolf, alt: "redwolf", 
