@@ -90,8 +90,8 @@ export const aboutDatas = {
 }
 
 export const reseauxDatas = [
-    {logo:  codepen, url: "https://codepen.io/sufranjnaweed", title: "codepen", pseudo: "@sufranjnaweed"},
     {logo:  githubRS, url: "https://github.com/SufranjNaweed", title: "Github", pseudo: "SufranjNaweed"},
+    {logo:  codepen, url: "https://codepen.io/sufranjnaweed", title: "codepen", pseudo: "@sufranjnaweed"},
     {logo:  linkedin, url: "https://www.linkedin.com/in/naweed-sufranj-483629121/", title: "Linkedin", pseudo: "Sufranj Naweed"},
     {logo:  twitter, url: "https://twitter.com/krakensin", title: "Twitter", pseudo: "@KrakenSin"},
 ];
