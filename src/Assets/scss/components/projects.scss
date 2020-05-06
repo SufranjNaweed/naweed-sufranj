@@ -37,6 +37,15 @@
             border-radius: 8px;
             border: 1px solid $purple;
             background-color: #fff;
+
+            transition: box-shadow linear 0.3s;
+            background: $bgColor;
+            &:hover{
+                box-shadow:  20px 20px 60px #c8cfd5, 
+                -20px -20px 60px #ffffff;
+                transform: translateY(-4px);
+            }
+            
             @media screen and (min-width : $lgScreen){
                 margin: 20px auto;
             }
